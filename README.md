@@ -1,4 +1,4 @@
-# Twitter Text Mining Porject 
+# Twitter Text Mining Project 
 
 Analyzing corpus of tweets gathered using twitter API and mine the data to find clusters of topics and detect any temporal or location patterns. 
 
