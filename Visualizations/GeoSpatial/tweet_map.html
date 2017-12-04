@@ -1,0 +1,16 @@
+<!DOCTYPE html> 
+<meta charset="utf-8"> 
+<body>
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="http://d3js.org/topojson.v1.min.js"></script>
+<script src="/Users/kevalshah/Keval_Backup/University/UChicago/OSDC%20PIRE/Twitter_Data_Viz_AIST/D3%20Map/datamaps.usa.min.js"></script>
+<div id="usa_tweets" style="position: relative; width: 700px; height: 400px;"></div>
+<script>
+    var map = new Datamap({
+    	element: document.getElementById('usa_tweets'),
+    	responsive: true,
+    	scope: "usa"
+    	});
+</script>
+</body>
+</html>
